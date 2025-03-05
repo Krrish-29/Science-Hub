@@ -23,7 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, searchQuery, handleSearc
             </button>
             
             <div className="ml-4 flex items-center">
-              <span className="text-blue-600 font-bold text-xl">ScienceHub</span>
+              <span className="text-blue-600 font-bold text-xl">InnovationOrbit</span>
             </div>
           </div>
           
