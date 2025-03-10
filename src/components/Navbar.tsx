@@ -6,7 +6,18 @@ interface NavbarProps {
   searchQuery: string;
   handleSearch: (query: string) => void;
 }
-
+const imageStyle: React.CSSProperties = {
+  width: '30px',
+  height: '2  0px',
+};
+const StyledSpan = styled.span`
+  &::before {
+    content: "\00a0"; /* This adds a non-breaking space */
+  }
+  color: #1e40af; /* Adjust your color here */
+  font-weight: bold;
+  font-size: 1.25rem; /* Adjust your font size here */
+`;
 const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, searchQuery, handleSearch }) => {
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
 
@@ -23,7 +34,8 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, searchQuery, handleSearc
             </button>
             
             <div className="ml-4 flex items-center">
-              <span className="text-blue-600 font-bold text-xl">InnovationOrbit</span>
+            <img src="download.png" style={imageStyle}></img>
+              <span className="text-blue-600 font-bold text-xl">    CHRAZE</span>
             </div>
           </div>
           

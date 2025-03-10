@@ -17,7 +17,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
     >
       <div className="h-full flex flex-col">
         <div className="flex items-center justify-between p-4 border-b">
-          <span className="text-blue-600 font-bold text-xl">InnovationOrbit</span>
+          <span className="text-blue-600 font-bold text-xl">*InnovX*</span>
           <button
             onClick={toggleSidebar}
             className="md:hidden p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 focus:outline-none"
