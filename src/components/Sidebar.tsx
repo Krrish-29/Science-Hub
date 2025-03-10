@@ -25,12 +25,31 @@
 //             <X size={20} />
 //           </button>
 //         </div>
+// const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
+//   return (
+//     <aside 
+//       className={`fixed inset-y-0 left-0 z-20 w-64 bg-white shadow-lg transform ${
+//         isOpen ? 'translate-x-0' : '-translate-x-full'
+//       } md:translate-x-0 transition-transform duration-300 ease-in-out ${
+//         isOpen ? 'md:relative' : 'md:hidden'
+//       }`}
+//     >
+//       <div className="h-full flex flex-col">
+//         <div className="flex items-center justify-between p-4 border-b">
+//           <span className="text-blue-600 font-bold text-xl">*InnovX*</span>
+//           <button
+//             onClick={toggleSidebar}
+//             className="md:hidden p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 focus:outline-none"
+//           >
+//             <X size={20} />
+//           </button>
+//         </div>
         
-//         <nav className="flex-1 overflow-y-auto py-4">
-//           <div className="px-4 mb-6">
-//             <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Main</h3>
-//             <div className="mt-2 space-y-1">
-//               {[
+// //         <nav className="flex-1 overflow-y-auto py-4">
+// //           <div className="px-4 mb-6">
+// //             <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Main</h3>
+// //             <div className="mt-2 space-y-1">
+// //               {[
 //                 { icon: <Home size={18} />, label: 'Home', active: true },
 //                 { icon: <Users size={18} />, label: 'Network' },
 //                 { icon: <MessageSquare size={18} />, label: 'Messages' },

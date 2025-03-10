@@ -120,7 +120,7 @@
 //                       <h4 className="text-sm font-medium text-gray-700 mb-2">Topics</h4>
 //                       <div className="space-y-2">
 //                         {[
-//                           { icon: <Cpu size={14} />, label: 'AI', value: 'ai' },
+//                           { icon: <Cpu size={14} />, label: '*AI', value: 'ai' },
 //                           { icon: <Leaf size={14} />, label: 'Sustainability', value: 'sustainability' },
 //                           { icon: <Rocket size={14} />, label: 'Space Tech', value: 'space-tech' },
 //                           { icon: <Globe size={14} />, label: 'Digital Transformation', value: 'digital-transformation' }
